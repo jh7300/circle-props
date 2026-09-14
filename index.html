@@ -171,7 +171,7 @@
     <!-- 활동 선택 화면 -->
     <section id="menu">
 
-        <button class="activity-button" onclick="openActivity(1)">
+        <button class="activity-button" onclick="window.location.href='act1.html'">
             <span class="number">활동 1</span>
             <h2>원의 중심과 현의 수직이등분선</h2>
             <p>
@@ -180,7 +180,7 @@
             </p>
         </button>
 
-        <button class="activity-button" onclick="openActivity(2)">
+        <button class="activity-button" onclick="window.location.href='act2.html'">
             <span class="number">활동 2</span>
             <h2>원의 중심에서 현까지의 거리와 현의 길이</h2>
             <p>
@@ -201,6 +201,7 @@
             <button class="back-button" onclick="goBack()">
                 ← 활동 선택
             </button>
+
         </div>
 
         <div class="geogebra-container">
@@ -211,6 +212,14 @@
                 allowfullscreen>
             </iframe>
 
+        </div>
+
+        <br>
+        
+        <div style="text-align: center;">
+            <button class="back-button" onclick="goForward()">
+                → 다음
+            </button>
         </div>
 
     </section>
